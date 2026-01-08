@@ -6,12 +6,37 @@ main {
 
 }
 
+
+.Headtext > h2 {
+    display: inline;
+    font-size: 1.9em;
+    font-weight: bold;
+
+}
+
+.Headtext > p {
+    margin-top: 10px;
+    color: #3b3b3b;
+
+}
+
+.Headtext{
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+
+}
+
+
+
 .launch {
     display: block;
     width: 100%;
     height: auto;
 
-    background-color: blue;
+    background: linear-gradient(149deg, rgb(47,0,255) 0%, rgb(47,0,255) 25%, rgb(85,0,238) 50%, rgb(123,0,200) 75%, rgb(135,0,166) 100%);
     color: white;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -63,3 +88,186 @@ main {
     float: left;
     
 }
+
+.why {
+    display: block;
+    width: 100%;
+    background-color: white;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+.why-cont {
+    display:  flex;
+    width: 60%;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    flex-wrap: wrap;
+}
+
+
+.why-item {
+    display: block;
+
+    width: 30%;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: white;
+
+    border-radius: 10px;
+    text-align: center;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.why-item img {
+
+    display: block;
+
+    width: 15%;
+    height: auto;
+
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.why-item > p {
+    color: #3b3b3b;
+}
+
+
+
+.OurCourses {
+    display: block;
+    width: 100%;
+    background-color: white;
+    padding-top: 50px;
+}
+
+
+.OurCourses-cont{
+    display:  flex;
+    width: 60%;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    flex-wrap: wrap;
+}
+
+.OurCourses-item {
+    display: block;
+
+    width: 45%;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-left: 10px;
+
+    background-color: white;
+
+    border-radius: 10px;
+    
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.OurCourses-item > .imag {
+
+    display: block;
+
+    width: 100%;
+    height: 240px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-clip: border-box;
+}
+.OurCourses-item > p {
+    margin-top: 40px;
+}
+.course-name {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.course-name span {
+    display: block;
+
+    width: auto;
+    height: auto;
+
+    padding: 5px;
+
+    border-radius: 10px;
+
+    float: left;
+
+    text-align: center;
+
+    margin-left: 20px;
+
+    background-color: #fff8da;
+    color: #666666;
+}
+
+.course-name img {
+    display: block;
+    width: 10%;
+    height: auto;
+    float: left;
+}
+
+.OurCourses-item > .cost {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    margin-top: 40px;
+    color: blue;
+}
+
+.success {
+    display: block;
+    width: 100%;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.success-cont {
+    display:  flex;
+    width: 60%;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.success-item {
+    display: block;
+}
+
