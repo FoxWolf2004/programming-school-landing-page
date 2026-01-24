@@ -42,11 +42,12 @@ main {
     padding-bottom: 100px;
 }
 
-.launch img {
+.launchImg {
     display: block;
-    width: 600px;
-    height: auto;
+    width: 60%;
+    height: 50%;
     margin-left: 25px;
+
     border-radius: 10px;
 }
 
@@ -108,7 +109,6 @@ main {
 .launch-text > .numbers {
     display: block;
     margin-top: 35px;
-    
 }
 
 .numbers > div {
