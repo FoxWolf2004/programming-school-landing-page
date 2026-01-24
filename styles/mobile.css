@@ -1,3 +1,71 @@
 @media screen and (width < 600px){
+        .wrapper-header {
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-direction: column;
+    }
+    header {
+        display: block;
+        padding-bottom: 10px;
+    }
+    header .logo {
+        margin-left: 1px;
+        font-size: 0.9em;
+        
+    }
+    header nav > ul > li {
+        margin-left: 15%;
+        width: 10%;
+        display: block;
+    }
+    header  nav  {
+        width: 80%;
+        margin-left: -7%;
+        font-size: 0.9em;
+        display: block;
+        margin: auto;
+    }
+
+    header .but > a {
+        width: 50%;
+        font-size: 0.9em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
+    .but {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    .why {
+        font-size: 1.2em;
+    }
+    .why-item {
+        width: 70%;
+    }
+
+    .OurCourses-item {
+        width: 95%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .launch{
+        padding-top: 200px;
+        text-align: center;
+    }
+
+        .numbers > div {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1em;
+    }
+
+    .numbers {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
