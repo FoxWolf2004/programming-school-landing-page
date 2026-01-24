@@ -257,6 +257,7 @@ main {
     width: 100%;
     background-color: white;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .success-cont {
@@ -266,8 +267,76 @@ main {
 
     margin-left: auto;
     margin-right: auto;
+    margin-top: 80px;
 }
 .success-item {
     display: block;
+    width: 30%;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.success-item .face {
+    display: block;
+    width: 25%;
+    height: auto;
+
+    border-radius: 100%;
+    margin-right: 5px;
+    float: left;
+}
+.success-item .stars {
+    display: block;
+    width: 30%;
+    height: auto;
+}
+.success-item > p {
+    clear: both;
+}
+
+.success-item > .name {
+    margin-top: 10px;
+}
+
+
+
+.ready {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    background: linear-gradient(149deg, rgb(47,0,255) 0%, rgb(47,0,255) 25%, rgb(85,0,238) 50%, rgb(123,0,200) 75%, rgb(135,0,166) 100%);
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ready > section > div {
+    display: block;
+    
+    width: 30%;
+    height: auto;
+    float: left;
+    background-color: rgb(53, 53, 128);
+}
+
+.ready > section > div > img{
+    display: block;
+    
+    width: 30px;
+    height: auto;
+
+}
+
+
+footer {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    background-color: rgb(17, 23, 43);
 }
 
