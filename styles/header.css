@@ -96,6 +96,11 @@ header nav > ul > li > a:visited{
     text-decoration: none;
 }
 
+header nav > ul > li > a:hover{
+    color: #006ec9;
+    text-decoration: none;
+}
+
 header .but {
     margin-top: 15px;
     display: block;

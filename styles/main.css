@@ -73,11 +73,42 @@ main {
     height: auto;
 
     margin-bottom: 25px;
+}
 
+.butti > button {
+    display: block;
+    width: 40%;
+    height: 40px;
+
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    float: left;
+
+    margin-left: 10px;
+}
+
+.butti > .lil {
+    display: block;
+    width: 30%;
+    height: 40px;
+
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    float: left;
+
+    margin-left: 10px;
+}
+.numbers {
+    clear: both;
 }
 .launch-text > .numbers {
     display: block;
     margin-top: 35px;
+    
 }
 
 .numbers > div {
@@ -251,7 +282,21 @@ main {
     margin-top: 40px;
     color: blue;
 }
+.cost > button {
+    display: block;
+    width: 30%;
+    height: 40px;
 
+    border-style: none;
+    border-radius: 5px;
+    background-color:blue;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+
+.cost > h2{
+    float: left;
+}
 .success {
     display: block;
     width: 100%;
