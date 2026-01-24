@@ -83,30 +83,39 @@
     .wrapper-header {
         margin-left: 10px;
         margin-right: 10px;
+        flex-direction: column;
     }
     header {
         display: block;
+        padding-bottom: 10px;
     }
     header .logo {
         margin-left: 1px;
         font-size: 0.9em;
+        
     }
     header nav > ul > li {
         margin-left: 15%;
         width: 10%;
+        display: block;
     }
     header  nav  {
         width: 55%;
         margin-left: -7%;
         font-size: 0.9em;
-        
+        display: block;
+        margin: auto;
     }
 
     header .but > a {
         width: 40%;
         font-size: 0.9em;
+        display: block;
     }
-
+    
+    .but {
+        margin: auto;
+    }
     .why {
         font-size: 1.2em;
     }
@@ -118,5 +127,9 @@
         width: 95%;
         margin: auto;
         margin-top: 10px;
+    }
+
+    .launch{
+        padding-top: 200px;
     }
 }
