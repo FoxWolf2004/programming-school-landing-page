@@ -42,11 +42,12 @@ main {
     padding-bottom: 100px;
 }
 
-.launch img {
+.launchImg {
     display: block;
-    width: 600px;
-    height: auto;
+    width: 60%;
+    height: 50%;
     margin-left: 25px;
+
     border-radius: 10px;
 }
 
@@ -73,7 +74,37 @@ main {
     height: auto;
 
     margin-bottom: 25px;
+}
 
+.butti > button {
+    display: block;
+    width: 40%;
+    height: 40px;
+
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    float: left;
+
+    margin-left: 10px;
+}
+
+.butti > .lil {
+    display: block;
+    width: 30%;
+    height: 40px;
+
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    float: left;
+
+    margin-left: 10px;
+}
+.numbers {
+    clear: both;
 }
 .launch-text > .numbers {
     display: block;
@@ -251,7 +282,25 @@ main {
     margin-top: 40px;
     color: blue;
 }
+.cost > button {
+    display: block;
+    width: 30%;
+    height: 40px;
 
+    border-style: none;
+    border-radius: 5px;
+    background-color:blue;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+.cost > button:hover {
+    background-color:rgb(0, 0, 160)
+}
+
+
+.cost > h2{
+    float: left;
+}
 .success {
     display: block;
     width: 100%;
@@ -330,13 +379,4 @@ main {
 
 }
 
-
-footer {
-    display: block;
-
-    width: 100%;
-    height: auto;
-
-    background-color: rgb(17, 23, 43);
-}
 

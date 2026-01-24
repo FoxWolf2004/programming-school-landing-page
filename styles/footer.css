@@ -1,5 +1,99 @@
+
 footer {
     display: block;
+
     width: 100%;
     height: auto;
+
+    background-color: rgb(17, 23, 43);
+    color: white;
+    padding-top: 40px;
 }
+
+
+footer  {
+    font-size: 0.9em;
+}
+
+
+#Hi > section {
+    display: block;
+
+    width:20%;
+    height: auto;
+    margin-left: 10px;
+    margin: auto;
+}
+
+#Hi > section > ul > li > a  {
+    display: block;
+    color:#d8d8d8;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#Hi > section > ul > li   {
+    list-style: none;
+}
+
+footer > #Hi {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: auto;
+
+    flex-wrap: wrap;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    border-color: #2b2c35;
+    box-sizing: border-box;
+
+    padding: 30px;
+}
+footer .Flogo {
+    margin-top: 17px;
+    margin-left: 20px;
+    display: block;
+    width: 350px;
+    height: 50px;
+    
+    float: left;
+}
+
+footer .Flogo > img {
+    display: block;
+    width: 10%;
+    height: auto;
+    float: left;
+
+    background-color: rgb(156, 128, 255);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer .Flogo > h2 {
+    display: block;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+}
+
+footer .Flogo > p {
+    clear: left;
+}
+
+.cp {
+    display: block;
+
+    width: 50%;
+    height: auto;
+
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    color:  #d8d8d8;
+}
+
+
