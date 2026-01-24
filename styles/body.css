@@ -8,3 +8,8 @@ body {
     
 }
 
+button {
+    transition-property: background-color,color;
+    transition-duration: 250ms;
+}
+

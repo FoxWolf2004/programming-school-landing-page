@@ -88,7 +88,8 @@ header nav > ul > li > a {
 
     color: #000;
     text-decoration: none;
-
+    transition-property: color;
+    transition-duration: 250ms;
 }
 
 header nav > ul > li > a:visited{
@@ -98,7 +99,6 @@ header nav > ul > li > a:visited{
 
 header nav > ul > li > a:hover{
     color: #006ec9;
-    text-decoration: none;
 }
 
 header .but {

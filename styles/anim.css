@@ -1,0 +1,10 @@
+@keyframes blueHover {
+    from {
+        background-color: blue;
+    }
+    to {
+        background-color: rgb(0, 0, 0);
+    }
+}
+
+

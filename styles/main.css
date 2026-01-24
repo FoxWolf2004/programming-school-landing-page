@@ -293,6 +293,10 @@ main {
     color: rgb(255, 255, 255);
     float: right;
 }
+.cost > button:hover {
+    background-color:rgb(0, 0, 160)
+}
+
 
 .cost > h2{
     float: left;
